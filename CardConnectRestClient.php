@@ -246,7 +246,7 @@ class CardConnectRestClient {
 					break;
 			}
 		} catch (Exception $e) {
-			echo "Caught exception when sending request : " .  $e->getMessage();
+			//echo "Caught exception when sending request : " .  $e->getMessage();
 		}
 
 		return $response;
